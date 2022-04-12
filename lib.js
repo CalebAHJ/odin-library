@@ -36,3 +36,6 @@ function display (){
         bookCard.appendChild(beenRead);
     }
 }
+
+addBook('a', 'b', 23, 'has been read');
+display()
