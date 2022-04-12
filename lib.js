@@ -7,11 +7,11 @@ function Book(author, title, pages, beenRead) {
     this.beenRead = beenRead;
 }
 
-function addBook (book) {
-    library.push(book);
+function addBook(author, title, pages, beenRead) {
+    const newBook = new Book(author, title, pages, beenRead);
 }
 
-function display () {
+function display (){
     for (const book of library) {
         const bookCard = document.createElement('div');
 
