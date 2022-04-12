@@ -9,6 +9,7 @@ function Book(author, title, pages, beenRead) {
 
 function addBook(author, title, pages, beenRead) {
     const newBook = new Book(author, title, pages, beenRead);
+    library.push(newBook)
 }
 
 function display (){
