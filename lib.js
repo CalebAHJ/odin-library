@@ -15,6 +15,7 @@ function addBook(author, title, pages, beenRead) {
 function display (){
     for (const book of library) {
         const bookCard = document.createElement('div');
+        bookCard.classList.add('card');
 
         const box = document.querySelector('#container');
         box.appendChild(bookCard);
@@ -38,5 +39,6 @@ function display (){
     }
 }
 
+addBook('a', 'b', 23, 'has been read');
 addBook('a', 'b', 23, 'has been read');
 display()
