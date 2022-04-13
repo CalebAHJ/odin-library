@@ -41,4 +41,9 @@ function display (){
 
 addBook('a', 'b', 23, 'has been read');
 addBook('a', 'b', 23, 'has been read');
+addBook('a', 'b', 23, 'has been read');
+addBook('a', 'b', 23, 'has been read');
+addBook('a', 'b', 23, 'has been read');
+addBook('a', 'b', 23, 'has been read');
+
 display()
