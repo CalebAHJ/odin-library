@@ -4,6 +4,13 @@ html, body {
     height: 100%;
 }
 
+h1 {
+    text-align: center;
+    font-family: sans-serif, 'Times New Roman';
+    font-size: 5rem;
+    color: rgb(131, 131, 255);
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
