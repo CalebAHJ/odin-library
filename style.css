@@ -21,6 +21,7 @@ h1 {
 
 .card {
     border: 2px solid blue;
+    border-radius: 8px;
     width: clamp(fit-content, 15%, 20%);
     height: clamp(fit-content, 20%, 30%);
     padding: 8px;
