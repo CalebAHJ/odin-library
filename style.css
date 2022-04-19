@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 h1 {
@@ -14,8 +15,8 @@ h1 {
 #container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    height: 70%;
+    gap: 15px;
+    height: 65%;
     padding: 30px;
 }
 
@@ -23,7 +24,7 @@ h1 {
     border: 2px solid blue;
     border-radius: 8px;
     width: clamp(fit-content, 15%, 20%);
-    height: clamp(fit-content, 20%, 30%);
+    height: clamp(4rem, 50%, 70%);
     padding: 8px;
 
     display: flex;
@@ -35,7 +36,7 @@ h1 {
 .card div {
     text-align: center;
     margin-bottom: 4px;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 #newbook {
