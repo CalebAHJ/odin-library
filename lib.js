@@ -9,7 +9,7 @@ function Book(author, title, pages, beenRead) {
 
 function addBook(author, title, pages, beenRead) {
     const newBook = new Book(author, title, pages, beenRead);
-    library.push(newBook)
+    library.push(newBook);
 }
 
 function display (){
@@ -46,4 +46,4 @@ addBook('a', 'b', 23, 'has been read');
 addBook('a', 'b', 23, 'has been read');
 addBook('a', 'b', 23, 'has been read');
 
-display()
+display();
