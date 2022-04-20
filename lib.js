@@ -60,6 +60,7 @@ const form = document.getElementById('book-form');
 form.addEventListener('submit', (e) => {
     addBook(form.elements['title'].value, form.elements['author'].value, 
     form.elements['pages'].value, form.elements['beenRead'].value);
+    form.submit();
     closeForm();
     display();
 });
