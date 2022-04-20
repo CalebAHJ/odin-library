@@ -55,6 +55,7 @@ addBook('a', 'b', 23, 'has been read');
 addBook('a', 'b', 23, 'has been read');
 
 display();
+
 const form = document.getElementById('book-form');
 form.addEventListener('submit', (e) => {
     addBook(form.elements['title'].value, form.elements['author'].value, 
