@@ -39,6 +39,14 @@ function display (){
     }
 }
 
+function openForm() {
+    document.getElementById('book-form').style.display = 'block';
+}
+
+function closeForm() {
+    document.getElementById('book-form').style.display = 'none';
+}
+
 addBook('a', 'b', 23, 'has been read');
 addBook('a', 'b', 23, 'has been read');
 addBook('a', 'b', 23, 'has been read');
